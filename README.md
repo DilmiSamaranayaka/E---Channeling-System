@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>MediSync mobile application</h1>
+        <h1>MediSync Mobile Application</h1>
         <p>
             MediSyncs is a state-of-the-art mobile application designed to streamline the process of doctor 
 channeling, bringing efficiency and convenience to both patients and healthcare providers. In this 
