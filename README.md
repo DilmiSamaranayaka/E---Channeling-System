@@ -16,7 +16,7 @@ channeling, bringing efficiency and convenience to both patients and healthcare 
 report, we will delve into the target audience for MediSyncs, the necessity of such a platform, and its 
 key features that make it a game-changer in the healthcare industry
         </p>
-<img src="https://github.com/Tharusha200219/PET_CARE_AND_ADOPTION_MOBILE_APP_YEAR_2_SEMESTER_2/blob/main/Desktop%20-%202.jpg?raw=true" alt="pet" >
+<img src="https://github.com/DilmiSamaranayaka/E---Channeling-System/blob/master/app/src/main/res/drawable/all.png?raw=true" alt="medisync" >
     </div>
 </body>
 </html>
