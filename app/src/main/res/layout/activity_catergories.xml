@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="384dp"
+    android:layout_height="690dp"
+    android:layout_margin="12sp"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="8dp">
+
+
+    <LinearLayout
+        android:id="@+id/background_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/doc_view"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/categories_image"
+            android:layout_width="360dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+
+
+            android:src="@drawable/d3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/categories_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/consultant"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/categories_dis"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:fontFamily="sans-serif-medium"
+                android:padding="10dp"
+                android:text="@string/a_consultant_is_a_seasoned_professional_offering_specialized_expertise_and_guidance_to_businesses_and_individuals_with_a_wealth_of_knowledge_in_their_field_consultants_provide_invaluable_insights_to_solve_complex_problems_and_optimize_operations_they_meticulously_analyze_data_assess_challenges_and_devise_innovative_strategies_tailored_to_clients_needs_consultants_excel_in_communication_fostering_collaboration_and_building_rapport_with_stakeholders_they_possess_sharp_analytical_skills_enabling_them_to_identify_opportunities_for_growth_and_improvement_armed_with_a_deep_understanding_of_industry_trends_and_best_practices_consultants_offer_actionable_recommendations_to_drive_success_their_adaptability_and_resourcefulness_empower_clients_to_navigate_change_and_overcome_obstacles_consultants_thrive_on_problem_solving_tackling_diverse_challenges_with_creativity_and_ingenuity_they_act_as_trusted_advisors_guiding_clients_through_decision_making_processes_and_risk_assessments_consultants_prioritize_client_satisfaction_delivering_measurable_results_and_tangible_outcomes_they_are_adept_at_managing_projects_timelines_and_budgets_efficiently_to_meet_objectives_consultants_cultivate_long_term_relationships_earning_trust_and_loyalty_through_integrity_and_professionalism_they_stay_abreast_of_emerging_technologies_and_methodologies_to_stay_ahead_of_the_curve_consultants_embrace_continuous_learning_and_self_improvement_enhancing_their_skills_to_stay_competitive_in_the_marketplace_in_summary_consultants_are_catalysts_for_success_empowering_clients_to_achieve_their_goals_and_thrive_in_today_s_dynamic_business_landscape"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

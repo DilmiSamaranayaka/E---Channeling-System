@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+
+                    android:id="@+id/app_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/logo_name"
+                    android:textColor="@color/coloraccent"
+                    android:textSize="28sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/app_name"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/white"
+                    android:elevation="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:text="@string/search_text" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="15dp"
+                        android:src="@drawable/search" />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+                                    <LinearLayout
+                                        android:id="@+id/background_gradient"
+                                        android:layout_width="250dp"
+                                        android:layout_height="150dp"
+                                        android:layout_margin="15dp"
+                                        android:background="@color/doc_view"
+
+                                        android:elevation="8dp"
+                                        android:padding="15dp">
+
+
+                                        <ImageView
+                                            android:id="@+id/categories_image"
+                                            android:layout_width="110dp"
+                                            android:layout_height="110dp"
+                                            android:src="@drawable/d1" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:id="@+id/categories_title"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:text="@string/DOCNAME2"
+                                                android:textAllCaps="true"
+                                                android:textColor="@color/colorAccent"
+                                                android:textSize="15sp" />
+
+                                            <TextView
+                                                android:id="@+id/categories_dis"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:padding="10dp"
+                                                android:text="@string/details"
+                                                android:textAllCaps="true"
+                                                android:textColor="@color/colorAccent"
+                                                android:textSize="9sp"
+                                                tools:ignore="SmallSp" />
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:id="@+id/background_g"
+                                        android:layout_width="250dp"
+                                        android:layout_height="150dp"
+                                        android:layout_margin="15dp"
+                                        android:background="@color/doc_view"
+                                        android:padding="15dp"
+                                        android:elevation="8dp">
+
+
+                                        <ImageView
+                                            android:id="@+id/categories_im"
+                                            android:layout_width="110dp"
+                                            android:layout_height="110dp"
+                                            android:src="@drawable/d2" />
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:id="@+id/categories_ti"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:text="@string/dentist"
+                                                android:textAllCaps="true"
+                                                android:textColor="@color/colorAccent"
+                                                android:textSize="15sp" />
+                                            <TextView
+                                                android:id="@+id/categories_"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:text="@string/qw1"
+                                                android:textAllCaps="true"
+                                                android:textColor="@color/colorAccent"
+                                                android:textSize="9sp"
+                                                android:padding="10dp"
+                                                tools:ignore="SmallSp" />
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:id="@+id/background_gradit"
+                                        android:layout_width="250dp"
+                                        android:layout_height="150dp"
+                                        android:layout_margin="15dp"
+                                        android:background="@color/doc_view"
+                                        android:padding="15dp"
+                                        android:elevation="8dp">
+
+
+                                        <ImageView
+                                            android:id="@+id/categories_iage"
+                                            android:layout_width="110dp"
+                                            android:layout_height="110dp"
+                                            android:src="@drawable/d3"
+                                            android:contentDescription="@string/todo" />
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:id="@+id/categories_tile"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:text="@string/consultant1"
+                                                android:textAllCaps="true"
+                                                android:textColor="@color/colorAccent"
+                                                android:textSize="15sp" />
+                                            <TextView
+                                                android:id="@+id/categories_is"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:text="@string/details2"
+                                                android:textAllCaps="true"
+                                                android:textColor="@color/colorAccent"
+                                                android:textSize="9sp"
+                                                android:padding="10dp"
+                                                tools:ignore="SmallSp" />
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                 </LinearLayout>
+    </HorizontalScrollView>
+
+                    </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:id="@+id/backgrnd_gradient"
+                                android:layout_width="250dp"
+                                android:layout_height="150dp"
+                                android:layout_margin="15dp"
+                                android:background="@color/doc_view"
+
+                                android:elevation="8dp"
+                                android:padding="15dp">
+
+
+                                <ImageView
+                                    android:id="@+id/categies_image"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/d1" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/categies_title"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/DOCNAME2"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:id="@+id/categies_dis"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:padding="10dp"
+                                        android:text="@string/details"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="9sp"
+                                        tools:ignore="SmallSp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/backound_g"
+                                android:layout_width="250dp"
+                                android:layout_height="150dp"
+                                android:layout_margin="15dp"
+                                android:background="@color/doc_view"
+                                android:padding="15dp"
+                                android:elevation="8dp">
+
+
+                                <ImageView
+                                    android:id="@+id/catories_im"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/d2" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/catories_ti"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/dentist"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="15sp" />
+                                    <TextView
+                                        android:id="@+id/cateories_"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/qw1"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="9sp"
+                                        android:padding="10dp"
+                                        tools:ignore="SmallSp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/backgroud_gradit"
+                                android:layout_width="250dp"
+                                android:layout_height="150dp"
+                                android:layout_margin="15dp"
+                                android:background="@color/doc_view"
+                                android:padding="15dp"
+                                android:elevation="8dp">
+
+
+                                <ImageView
+                                    android:id="@+id/categoies_iage"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/d3"
+                                    android:contentDescription="@string/todo" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/categoris_tile"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/consultant1"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="15sp" />
+                                    <TextView
+                                        android:id="@+id/categoris_is"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/details2"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="9sp"
+                                        android:padding="10dp"
+                                        tools:ignore="SmallSp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:id="@+id/backgwwround_gradient"
+                                android:layout_width="250dp"
+                                android:layout_height="150dp"
+                                android:layout_margin="15dp"
+                                android:background="@color/doc_view"
+
+                                android:elevation="8dp"
+                                android:padding="15dp">
+
+
+                                <ImageView
+                                    android:id="@+id/categwwories_image"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/d1" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/categwwories_title"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/DOCNAME2"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:id="@+id/catewwgories_dis"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:padding="10dp"
+                                        android:text="@string/details"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="9sp"
+                                        tools:ignore="SmallSp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/bacwwkground_g"
+                                android:layout_width="250dp"
+                                android:layout_height="150dp"
+                                android:layout_margin="15dp"
+                                android:background="@color/doc_view"
+                                android:padding="15dp"
+                                android:elevation="8dp">
+
+
+                                <ImageView
+                                    android:id="@+id/catewwgories_im"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/d2" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/categorwwies_ti"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/dentist"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="15sp" />
+                                    <TextView
+                                        android:id="@+id/catewwgories_"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/qw1"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="9sp"
+                                        android:padding="10dp"
+                                        tools:ignore="SmallSp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/backgrouwwnd_gradit"
+                                android:layout_width="250dp"
+                                android:layout_height="150dp"
+                                android:layout_margin="15dp"
+                                android:background="@color/doc_view"
+                                android:padding="15dp"
+                                android:elevation="8dp">
+
+
+                                <ImageView
+                                    android:id="@+id/categwwories_iage"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/d3"
+                                    android:contentDescription="@string/todo" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/catwwegories_tile"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/consultant1"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="15sp" />
+                                    <TextView
+                                        android:id="@+id/cateeegories_is"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/details2"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="9sp"
+                                        android:padding="10dp"
+                                        tools:ignore="SmallSp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:id="@+id/backgrnwd_gradient"
+                                android:layout_width="250dp"
+                                android:layout_height="150dp"
+                                android:layout_margin="15dp"
+                                android:background="@color/doc_view"
+
+                                android:elevation="8dp"
+                                android:padding="15dp">
+
+
+                                <ImageView
+                                    android:id="@+id/catwegies_image"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/d1" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/catwegies_title"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/DOCNAME2"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:id="@+id/catewgies_dis"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:padding="10dp"
+                                        android:text="@string/details"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="9sp"
+                                        tools:ignore="SmallSp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/backwound_g"
+                                android:layout_width="250dp"
+                                android:layout_height="150dp"
+                                android:layout_margin="15dp"
+                                android:background="@color/doc_view"
+                                android:padding="15dp"
+                                android:elevation="8dp">
+
+
+                                <ImageView
+                                    android:id="@+id/catorwies_im"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/d2" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/catorwies_ti"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/dentist"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="15sp" />
+                                    <TextView
+                                        android:id="@+id/catweories_"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/qw1"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="9sp"
+                                        android:padding="10dp"
+                                        tools:ignore="SmallSp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/backgwroud_gradit"
+                                android:layout_width="250dp"
+                                android:layout_height="150dp"
+                                android:layout_margin="15dp"
+                                android:background="@color/doc_view"
+                                android:padding="15dp"
+                                android:elevation="8dp">
+
+
+                                <ImageView
+                                    android:id="@+id/cawtegoies_iage"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/d3"
+                                    android:contentDescription="@string/todo" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/categowris_tile"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/consultant1"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="15sp" />
+                                    <TextView
+                                        android:id="@+id/catewgoris_is"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/details2"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="9sp"
+                                        android:padding="10dp"
+                                        tools:ignore="SmallSp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+        </LinearLayout></ScrollView>
+
+
+</LinearLayout>
